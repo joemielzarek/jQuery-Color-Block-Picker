@@ -1,3 +1,87 @@
-body {
-  
+h1 {
+    font-family: helvetica,sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: helvetica,sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.pick-center {
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+}
+
+.pick-container {
+    font-family: helvetica,sans-serif;
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.red:hover {
+    background-color: #fff;
+    border: 2px solid red;
+}
+
+.green:hover {
+    background-color: #fff;
+    border: 2px solid green;
+}
+
+.yellow:hover {
+    background-color: #fff;
+    border: 2px solid #ff0;
+}
+
+.blue:hover {
+    background-color: #fff;
+    border: 2px solid blue;
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid green;
+}
+
+.yellow {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ff0;
+}
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid blue;
 }
